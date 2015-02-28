@@ -1,0 +1,175 @@
+body
+{
+    margin:  0;
+    padding: 0;
+    border-style: none;
+    color:   #404040;
+    background-color: #FFF;
+}
+
+div
+{    
+    font-family: arial, sans-serif;
+    font-size:   11pt;
+    font-weight: normal;
+}
+
+div.main
+{
+    width: 720px;
+}
+
+div.header
+{    
+    height: 150px;
+    margin: 10px;
+    border-bottom: 4px solid #000;
+}
+
+div.footer
+{
+    height: 40px;
+    margin:  10px;
+    padding-top: 10px;
+    text-align: center;
+    color: #404040;
+    border-top: 4px solid #000;
+}
+
+
+div.content
+{
+    margin:   10px;
+    padding:  10px 10px 10px 25px;
+}
+
+div.contentbox
+{
+    width: 640px;
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+}
+
+div.navigation
+{
+    margin:  0px 10px 0px 10px;
+    padding: 0px 0px 0px 25px;
+    background-color: #FFF;
+    color: #404040;
+}
+
+
+/************************************************************
+ * Lists
+ ***********************************************************/
+ul.nav 
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+li.nav
+{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+li
+{
+    margin-bottom: 1.25em;
+}
+
+
+/********************************************************************
+ * Links
+ *******************************************************************/
+ul a
+{
+    display: inline-block; /* IE6 Hack */
+}
+
+ul.nav a
+{
+    font-size: 12pt;
+    display: inline;
+    border-right: solid 1px #404040;
+    padding-right: 20px;
+    margin-right:  20px;
+}
+
+#lastnav
+{
+    border-right: 0px;
+}
+
+a:link, a:visited, a:active
+{
+    color: #404040;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: #404040;
+    text-decoration: underline;
+}
+
+.contentbox a:link, 
+.contentbox a:visited, 
+.contentbox a:active
+{
+    color: #404040;
+    text-decoration: underline;    
+}
+
+.contentbox a:hover
+{
+    color: #FFF;
+    background-color:#404040;
+    text-decoration: underline;
+}
+
+
+/********************************************************************
+ * Paragraphs
+ *******************************************************************/
+p.copyright, p.validate
+{
+    color: #404040;
+    font-size: 9pt;
+    margin: 0;
+    padding: 0;
+}
+
+p.validate a
+{
+    color: #404040
+}
+
+div.contentbox p
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/********************************************************************
+ * Headers
+ *******************************************************************/
+h1
+{
+    color: #404040;
+    font-size: 12pt;
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
+
+h2
+{
+    color: #404040;
+    font-size: 11pt;
+    padding: 5px 5px 5px 10px;
+}

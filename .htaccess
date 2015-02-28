@@ -1,0 +1,9 @@
+ErrorDocument 404 /error/404.shtml
+
+RewriteEngine on
+RewriteRule ^([^/\.]+)/?$ index.php?page=$1.html [L]
+
+RewriteCond %{HTTP_HOST} ^notes\.nizol\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.notes\.nizol\.net$
+RewriteRule ^/?$ "https\:\/\/secure3219\.hostgator\.com\/\~mnizol\/notes\/index\.php\?title\=Special\:UserLogin" [R=301,L]
+
