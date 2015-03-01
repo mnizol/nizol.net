@@ -1,6 +1,8 @@
 ErrorDocument 404 /error/404.shtml
 
 RewriteEngine on
+
+RewriteRule ^professional$ publications
 RewriteRule ^([^/\.]+)/?$ index.php?page=$1.html [L]
 
 RewriteCond %{HTTP_HOST} ^notes\.nizol\.net$ [OR]
