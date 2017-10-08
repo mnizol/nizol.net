@@ -11,7 +11,7 @@
 <?php 
     require("./common/header.html");
 
-    require("./common/navigation.html");
+    /*require("./common/navigation.html");*/
 
     if (!isset($_GET['page'])) {
         require("./content/home.html"); 
