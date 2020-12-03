@@ -1,0 +1,5 @@
+FROM php:7.0-apache
+COPY . /var/www/html/
+RUN a2enmod rewrite
+RUN service apache2 restart
+EXPOSE 80
