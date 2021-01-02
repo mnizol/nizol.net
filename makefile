@@ -1,7 +1,7 @@
 
 serve: ## build and run the site in docker \m/
 	@docker build -t nizol-net .
-	@docker run -v `pwd`:/var/www/html/ -p 80:80 nizol-net
+	@docker run -v `pwd`:/var/www/html/ -p 8080:80 nizol-net
 
 
 .PHONY: help
